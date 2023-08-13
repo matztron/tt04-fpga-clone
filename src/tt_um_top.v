@@ -15,5 +15,10 @@ inverter inv_I(
     .in(ui_in[0]),
     .out(uo_out[0])
 );
+
+assign uo_out[7:1] = 7'b0000_000;
+assign uio_out = 8'b0;
+assign uio_oe = 8'b0;
+
     
 endmodule
